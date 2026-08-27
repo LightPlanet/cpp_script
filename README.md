@@ -48,7 +48,7 @@ int main(int ac, char** av) {
         const auto source_files = script::get_files_by_ext("./src", ".cpp");
         for (auto& src : source_files)
             compile.append(src);
-        compile.append(I" + boost_dir.string());
+        compile.append("I" + boost_dir.string());
         compile.run();
     }
     if (want_run) {
