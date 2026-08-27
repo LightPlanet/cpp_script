@@ -15,9 +15,9 @@ using script::arg_bool;
 
 const script::args_table ArgsTable{
     arg_string{ "-comp=",   "Compiler for script and project", "clang++" },
-    arg_string{ "-std=",    "C++ version", std=c++20" },
-    arg_path  { "-boost=",  "Boost dir", libs}/boost" },
-    arg_path  { "-output=", "Output dir", bin" },
+    arg_string{ "-std=",    "C++ version", "std=c++20" },
+    arg_path  { "-boost=",  "Boost dir", "${libs}/boost" },
+    arg_path  { "-output=", "Output dir", "bin" },
     arg_bool  { "-run",     "Run binary after script is finished" },
     arg_bool  { "-no-comp", "Skip project compilation" }
 };
