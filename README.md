@@ -5,6 +5,8 @@ Single-header library for writing scripts with C++20.
 2. Argument table for args -> variable projection
 ### Example
 ```cpp
+// File .build.cpp
+
 #include "cpp_script.hpp"
 
 using script::arg_string;
