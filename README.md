@@ -1,8 +1,8 @@
 # cpp_script
 Single-header library for writing scripts with C++20.
 ### Core features
-1. Self-rebuild if sources has been changed
-2. Argument table for args -> variable projection
+1. Self-rebuild if sources have been changed
+2. Argument table which allows project user args to variables
 ### Example
 ```cpp
 // File .build.cpp
